@@ -1,0 +1,10 @@
+/vendor/
+/.env
+/.env.*
+/logs/
+/marketing-lab-evidence/
+/node_modules/
+*.log
+*.sql.gz
+*.sql.zip
+/config.php

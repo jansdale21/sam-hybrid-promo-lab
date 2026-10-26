@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sqs:SendMessage",
+                "sqs:ReceiveMessage",
+                "sqs:DeleteMessage",
+                "sqs:GetQueueAttributes",
+                "sqs:GetQueueUrl"
+            ],
+            "Resource": [
+                "arn:aws:sqs:ap-southeast-2:408852558600:Yusi-MarketingEmailQueue-s231559690",
+                "arn:aws:sqs:ap-southeast-2:408852558600:Yusi-MarketingEmailDLQ-s231559690"
+            ]
+        }
+    ]
+}
